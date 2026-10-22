@@ -1,0 +1,70 @@
+File: tests/test1_euler_var4.txt
+Vertices: 6, Edges: 9
+Edges: (1,2) (1,3) (1,4) (1,6) (2,3) (3,4) (3,5) (4,5) (4,6)
+Adjacency matrix:
+    1   2   3   4   5   6   
+1   0   1   1   1   0   1   
+2   1   0   1   0   0   0   
+3   1   1   0   1   1   0   
+4   1   0   1   0   1   1   
+5   0   0   1   1   0   0   
+6   1   0   0   1   0   0   
+Degrees: 1=4 2=2 3=4 4=4 5=2 6=2
+Euler cycle: 1 6 4 5 3 4 1 3 2 1
+
+File: tests/test2_hamilton_var4.txt
+Vertices: 7, Edges: 10
+Edges: (a,c) (a,b) (b,d) (b,e) (c,d) (c,f) (d,f) (d,e) (e,g) (f,g)
+Adjacency matrix:
+    a   b   c   d   e   f   g   
+a   0   1   1   0   0   0   0   
+b   1   0   0   1   1   0   0   
+c   1   0   0   1   0   1   0   
+d   0   1   1   0   1   1   0   
+e   0   1   0   1   0   0   1   
+f   0   0   1   1   0   0   1   
+g   0   0   0   0   1   1   0   
+Degrees: a=2 b=3 c=3 d=4 e=3 f=3 g=2
+Dirac condition (deg >= n/2): not satisfied
+Hamilton cycle: a b d e g f c a
+
+File: tests/test3_euler_none.txt
+Vertices: 4, Edges: 4
+Edges: (1,2) (2,3) (3,4) (1,3)
+Adjacency matrix:
+    1   2   3   4   
+1   0   1   1   0   
+2   1   0   1   0   
+3   1   1   0   1   
+4   0   0   1   0   
+Degrees: 1=2 2=2 3=3 4=1
+Vertex 3 has odd degree (3)
+Euler cycle does not exist
+
+File: tests/test4_hamilton_dirac.txt
+Vertices: 4, Edges: 5
+Edges: (a,b) (b,c) (c,d) (d,a) (a,c)
+Adjacency matrix:
+    a   b   c   d   
+a   0   1   1   1   
+b   1   0   1   0   
+c   1   1   0   1   
+d   1   0   1   0   
+Degrees: a=3 b=2 c=3 d=2
+Dirac condition (deg >= n/2): satisfied
+Hamilton cycle: a b c d a
+
+File: tests/test5_hamilton_none.txt
+Vertices: 5, Edges: 4
+Edges: (a,b) (b,c) (c,d) (d,e)
+Adjacency matrix:
+    a   b   c   d   e   
+a   0   1   0   0   0   
+b   1   0   1   0   0   
+c   0   1   0   1   0   
+d   0   0   1   0   1   
+e   0   0   0   1   0   
+Degrees: a=1 b=2 c=2 d=2 e=1
+Vertex a has degree < 2
+Hamilton cycle does not exist
+
