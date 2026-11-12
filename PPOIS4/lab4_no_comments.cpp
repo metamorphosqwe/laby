@@ -271,5 +271,6 @@ int main()
     cout << "Операций деканата: "
          << dean.TO_GET_Processed() << endl;
 
+    system("pause");
     return 0;
 }
