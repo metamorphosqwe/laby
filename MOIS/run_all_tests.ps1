@@ -8,7 +8,7 @@ $passed = 0
 $failed = 0
 
 try {
-    foreach ($number in 2..8) {
+    foreach ($number in 1..8) {
         $folder = Join-Path $root ("MOIS" + $number)
         $executable = Join-Path $buildDir ("MOIS" + $number + '.exe')
         & gcc -std=c11 -O2 -Wall -Wextra -Werror (Join-Path $folder 'solution.c') -o $executable

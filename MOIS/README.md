@@ -1,20 +1,22 @@
-# MOIS2-MOIS8
+# MOIS1-MOIS8
 
 Each `MOISN` directory contains a C11 solution and 20 input files in `tests`.
 The programs accept a test file path as their first command-line argument; if
 no argument is given, they read from standard input.
 
-Run all 140 tests from PowerShell in this directory:
+Run all 160 tests from PowerShell in this directory:
 
 ```powershell
 .\run_all_tests.ps1
 ```
 
-The runner compiles all seven programs with GCC, invokes each test file as an
+The runner compiles all eight programs with GCC, invokes each test file as an
 argument, and compares its output with the matching file in `tests/expected`.
 
 ## Input formats
 
+- **MOIS1:** `n m`, followed by `m` undirected edges `u v`. Prints adjacency
+  and incidence matrices and the connected components found by BFS and DFS.
 - **MOIS2:** two graphs in sequence. Each graph starts with `n m`, followed by
   `m` undirected edges `u v`; vertices are numbered from 1. The first graph is
   checked for an Euler cycle and the second for a Hamilton cycle.

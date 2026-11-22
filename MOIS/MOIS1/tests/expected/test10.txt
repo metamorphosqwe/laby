@@ -1,0 +1,21 @@
+Vertices: 6 Edges: 6
+Adjacency matrix:
+    1 2 3 4 5 6
+1: 0 1 0 0 0 1
+2: 1 0 1 0 0 0
+3: 0 1 0 1 0 0
+4: 0 0 1 0 1 0
+5: 0 0 0 1 0 1
+6: 1 0 0 0 1 0
+Incidence matrix:
+    E1 E2 E3 E4 E5 E6
+1: 1 0 0 0 0 1
+2: 1 1 0 0 0 0
+3: 0 1 1 0 0 0
+4: 0 0 1 1 0 0
+5: 0 0 0 1 1 0
+6: 0 0 0 0 1 1
+BFS components: 1
+C1: 1 2 3 4 5 6
+DFS components: 1
+C1: 1 2 3 4 5 6

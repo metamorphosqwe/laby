@@ -1,0 +1,11 @@
+Vertices: 1 Edges: 0
+Adjacency matrix:
+    1
+1: 0
+Incidence matrix:
+   
+1:
+BFS components: 1
+C1: 1
+DFS components: 1
+C1: 1
