@@ -1,6 +1,0 @@
-5
-a b
-b c
-c d
-d a
-a c

@@ -1,0 +1,4 @@
+Cycles: (1 4 2 6) (3) (5)
+Order: 4
+Parity: odd
+Inversions: 11

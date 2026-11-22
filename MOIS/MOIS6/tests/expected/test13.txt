@@ -1,0 +1,3 @@
+Isomorphic: YES
+Tree1: height=20 balanced=NO
+Tree2: height=20 balanced=NO

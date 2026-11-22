@@ -1,0 +1,2 @@
+Minimum: 80
+Route: 1 3 4 2 1

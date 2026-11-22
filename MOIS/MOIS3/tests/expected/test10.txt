@@ -1,0 +1,4 @@
+Dijkstra: 0 1 INF INF INF
+Floyd-Warshall: 0 1 INF INF INF
+Dijkstra paths: 1=1 2=1->2 3=- 4=- 5=-
+Floyd-Warshall paths: 1=1 2=1->2 3=- 4=- 5=-

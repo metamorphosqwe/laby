@@ -1,0 +1,4 @@
+Cycles: (1)
+Order: 1
+Parity: even
+Inversions: 0

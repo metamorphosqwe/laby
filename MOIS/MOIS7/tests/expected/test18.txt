@@ -1,0 +1,10 @@
+Mapping Z4 -> {1, 3, 9, 27} (multiplication mod 80):
+0 -> 1
+1 -> 3
+2 -> 9
+3 -> 27
+Kernel: {0}
+Image: {1, 3, 9, 27}
+Injective: YES
+Surjective: YES
+Isomorphism: YES

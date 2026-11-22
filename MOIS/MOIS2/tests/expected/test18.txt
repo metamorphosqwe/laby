@@ -1,0 +1,7 @@
+G1: n=4 m=6
+Degrees: 1=3 2=3 3=3 4=3
+Euler cycle: does not exist
+G2: n=6 m=15
+Degrees: 1=5 2=5 3=5 4=5 5=5 6=5
+Dirac condition: satisfied
+Hamilton cycle: 1 2 3 4 5 6 1

@@ -1,0 +1,6 @@
+SCC: 1
+C1: 1
+Articulation: none
+Bridges: none
+Blocks: 1
+B1: 1

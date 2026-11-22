@@ -1,0 +1,4 @@
+Dijkstra: 0
+Floyd-Warshall: 0
+Dijkstra paths: 1=1
+Floyd-Warshall paths: 1=1

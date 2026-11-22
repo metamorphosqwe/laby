@@ -1,0 +1,2 @@
+Prim: 0
+Kruskal: 0

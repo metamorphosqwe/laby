@@ -1,0 +1,4 @@
+Dijkstra: 0 9
+Floyd-Warshall: 0 9
+Dijkstra paths: 1=1 2=1->2
+Floyd-Warshall paths: 1=1 2=1->2

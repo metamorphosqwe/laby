@@ -1,0 +1,9 @@
+SCC: 3
+C1: 2
+C2: 3
+C3: 1
+Articulation: 2
+Bridges: 2-3
+Blocks: 2
+B1: 2 3
+B2: 1 2
